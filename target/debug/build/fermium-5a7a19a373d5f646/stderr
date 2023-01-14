@@ -1,0 +1,434 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+    HIDAPI
+
+
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/hidapi/SDL_hidapi.c:252:72: warning: 'kIOMasterPortDefault' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    SDL_HIDAPI_discovery.m_notificationPort = IONotificationPortCreate(kIOMasterPortDefault);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       kIOMainPortDefault
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:123:19: note: 'kIOMasterPortDefault' has been explicitly marked deprecated here
+const mach_port_t kIOMasterPortDefault
+                  ^
+1 warning generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/hidapi/SDL_hidapi.c:252:72: warning: 'kIOMasterPortDefault' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    SDL_HIDAPI_discovery.m_notificationPort = IONotificationPortCreate(kIOMasterPortDefault);
+                                                                       ^~~~~~~~~~~~~~~~~~~~
+                                                                       kIOMainPortDefault
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:123:19: note: 'kIOMasterPortDefault' has been explicitly marked deprecated here
+const mach_port_t kIOMasterPortDefault
+                  ^
+1 warning generated.
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:131:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:136:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:141:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:146:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:151:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:156:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:131:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:136:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:141:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:146:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:151:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+In file included from /Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb.c:156:
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/yuv2rgb/yuv_rgb_std_func.h:100:5: warning: variable 'y_ptr2' set but not used [-Wunused-but-set-variable]
+                        *y_ptr2=Y+(y+1)*Y_stride,
+                         ^
+6 warnings generated.
+6 warnings generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:56:5: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    kAudioObjectPropertyElementMaster
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:134:13: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+            kAudioObjectPropertyElementMaster
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:139:13: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+            kAudioObjectPropertyElementMaster
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:144:13: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+            kAudioObjectPropertyElementMaster
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:636:5: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    kAudioObjectPropertyElementMaster
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:757:9: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+        kAudioObjectPropertyElementMaster
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:804:9: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+        kAudioObjectPropertyElementMaster
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:952:9: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+        kAudioObjectPropertyElementMaster
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+8 warnings generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:56:5: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    kAudioObjectPropertyElementMaster
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:134:13: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+            kAudioObjectPropertyElementMaster
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:139:13: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+            kAudioObjectPropertyElementMaster
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:144:13: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+            kAudioObjectPropertyElementMaster
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:636:5: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    kAudioObjectPropertyElementMaster
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:757:9: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+        kAudioObjectPropertyElementMaster
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:804:9: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+        kAudioObjectPropertyElementMaster
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/audio/coreaudio/SDL_coreaudio.m:952:9: warning: 'kAudioObjectPropertyElementMaster' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+        kAudioObjectPropertyElementMaster
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        kAudioObjectPropertyElementMain
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h:208:5: note: 'kAudioObjectPropertyElementMaster' has been explicitly marked deprecated here
+    kAudioObjectPropertyElementMaster API_DEPRECATED_WITH_REPLACEMENT("kAudioObjectPropertyElementMain", macos(10.0, 12.0), ios(2.0, 15.0), watchos(1.0, 8.0), tvos(9.0, 15.0)) = kAudioObjectPropertyElementMain
+    ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/haptic/darwin/SDL_syshaptic.c:170:43: warning: 'kIOMasterPortDefault' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    result = IOServiceGetMatchingServices(kIOMasterPortDefault, match, &iter);
+                                          ^~~~~~~~~~~~~~~~~~~~
+                                          kIOMainPortDefault
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:123:19: note: 'kIOMasterPortDefault' has been explicitly marked deprecated here
+const mach_port_t kIOMasterPortDefault
+                  ^
+1 warning generated.
+8 warnings generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:350:27: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+    } else if (controller.gamepad) {
+                          ^~~~~~~
+                          extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:529:24: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+            controller.controllerPausedHandler = nil;
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:114:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:734:28: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+                controller.controllerPausedHandler = ^(GCController *c) {
+                           ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:114:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:990:31: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        } else if (controller.gamepad) {
+                              ^~~~~~~
+                              extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:991:13: warning: 'GCGamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+            GCGamepad *gamepad = controller.gamepad;
+            ^~~~~~~~~
+            GCExtendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h:32:12: note: 'GCGamepad' has been explicitly marked deprecated here
+@interface GCGamepad : GCPhysicalInputProfile
+           ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:991:45: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+            GCGamepad *gamepad = controller.gamepad;
+                                            ^~~~~~~
+                                            extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:1494:24: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+            controller.controllerPausedHandler = nil;
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:114:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:1610:20: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+    if (controller.gamepad) {
+                   ^~~~~~~
+                   extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:1611:27: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        return controller.gamepad.dpad;
+                          ^~~~~~~
+                          extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+9 warnings generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/haptic/darwin/SDL_syshaptic.c:170:43: warning: 'kIOMasterPortDefault' is deprecated: first deprecated in macOS 12.0 [-Wdeprecated-declarations]
+    result = IOServiceGetMatchingServices(kIOMasterPortDefault, match, &iter);
+                                          ^~~~~~~~~~~~~~~~~~~~
+                                          kIOMainPortDefault
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:123:19: note: 'kIOMasterPortDefault' has been explicitly marked deprecated here
+const mach_port_t kIOMasterPortDefault
+                  ^
+1 warning generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoamodes.m:146:23: warning: 'CGDisplayModeCopyPixelEncoding' is deprecated: first deprecated in macOS 10.11 - No longer supported [-Wdeprecated-declarations]
+    CFStringRef fmt = CGDisplayModeCopyPixelEncoding(vidmode);
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:177:34: note: 'CGDisplayModeCopyPixelEncoding' has been explicitly marked deprecated here
+CG_EXTERN CFStringRef __nullable CGDisplayModeCopyPixelEncoding(
+                                 ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoamodes.m:307:32: warning: 'CGDisplayIOServicePort' is deprecated: first deprecated in macOS 10.9 - No longer supported [-Wdeprecated-declarations]
+    io_service_t servicePort = CGDisplayIOServicePort(displayID);
+                               ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDisplayConfiguration.h:372:24: note: 'CGDisplayIOServicePort' has been explicitly marked deprecated here
+CG_EXTERN io_service_t CGDisplayIOServicePort(CGDirectDisplayID display)
+                       ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:350:27: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+    } else if (controller.gamepad) {
+                          ^~~~~~~
+                          extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:529:24: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+            controller.controllerPausedHandler = nil;
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:114:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:734:28: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+                controller.controllerPausedHandler = ^(GCController *c) {
+                           ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:114:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:990:31: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        } else if (controller.gamepad) {
+                              ^~~~~~~
+                              extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:991:13: warning: 'GCGamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+            GCGamepad *gamepad = controller.gamepad;
+            ^~~~~~~~~
+            GCExtendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h:32:12: note: 'GCGamepad' has been explicitly marked deprecated here
+@interface GCGamepad : GCPhysicalInputProfile
+           ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:991:45: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+            GCGamepad *gamepad = controller.gamepad;
+                                            ^~~~~~~
+                                            extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:1494:24: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+            controller.controllerPausedHandler = nil;
+                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:114:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:1610:20: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+    if (controller.gamepad) {
+                   ^~~~~~~
+                   extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/joystick/iphoneos/SDL_mfijoystick.m:1611:27: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        return controller.gamepad.dpad;
+                          ^~~~~~~
+                          extendedGamepad
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:192:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+2 warnings generated.
+9 warnings generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoashape.m:47:40: warning: 'graphicsContext' is deprecated: first deprecated in macOS 10.14 - Add instances of NSView to display content in a window. [-Wdeprecated-declarations]
+    data->context = [windata->nswindow graphicsContext];
+                                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:864:59: note: property 'graphicsContext' is declared deprecated here
+@property (nullable, readonly, strong) NSGraphicsContext *graphicsContext API_DEPRECATED("Add instances of NSView to display content in a window.", macos(10.0,10.14));
+                                                          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:864:59: note: 'graphicsContext' has been explicitly marked deprecated here
+1 warning generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:159:47: warning: 'NSFilenamesPboardType' is deprecated: first deprecated in macOS 10.14 - Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead [-Wdeprecated-declarations]
+    NSArray *types = [NSArray arrayWithObject:NSFilenamesPboardType];
+                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPasteboard.h:312:32: note: 'NSFilenamesPboardType' has been explicitly marked deprecated here
+APPKIT_EXTERN NSPasteboardType NSFilenamesPboardType API_DEPRECATED("Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead", macos(10.0,10.14));
+                               ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:172:45: warning: 'NSFilenamesPboardType' is deprecated: first deprecated in macOS 10.14 - Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead [-Wdeprecated-declarations]
+    SDL_assert([desiredType isEqualToString:NSFilenamesPboardType]);
+                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPasteboard.h:312:32: note: 'NSFilenamesPboardType' has been explicitly marked deprecated here
+APPKIT_EXTERN NSPasteboardType NSFilenamesPboardType API_DEPRECATED("Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead", macos(10.0,10.14));
+                               ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:506:11: warning: 'setAcceptsTouchEvents:' is deprecated: first deprecated in macOS 10.12.2 - Use allowedTouchTypes instead [-Wdeprecated-declarations]
+    [view setAcceptsTouchEvents:YES];
+          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:227:16: note: property 'acceptsTouchEvents' is declared deprecated here
+@property BOOL acceptsTouchEvents API_DEPRECATED("Use allowedTouchTypes instead", macos(10.6,10.12.2));
+               ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:227:16: note: 'setAcceptsTouchEvents:' has been explicitly marked deprecated here
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:1655:15: warning: 'setOneShot:' is deprecated: first deprecated in macOS 10.14 - This property does not do anything and should not be used [-Wdeprecated-declarations]
+    [nswindow setOneShot:NO];
+              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:866:35: note: property 'oneShot' is declared deprecated here
+@property (getter=isOneShot) BOOL oneShot API_DEPRECATED("This property does not do anything and should not be used", macos(10.0,10.14));
+                                  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:866:35: note: 'setOneShot:' has been explicitly marked deprecated here
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:2363:86: warning: 'kUTTypeFileURL' is deprecated: first deprecated in macOS 12.0 - Use UTTypeFileURL instead. [-Wdeprecated-declarations]
+        [data->nswindow registerForDraggedTypes:[NSArray arrayWithObject:(NSString *)kUTTypeFileURL]];
+                                                                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers/UTCoreTypes.h:211:26: note: 'kUTTypeFileURL' has been explicitly marked deprecated here
+extern const CFStringRef kUTTypeFileURL                              API_DEPRECATED("Use UTTypeFileURL instead.", ios(3.0, 15.0), macos(10.4, 12.0), tvos(9.0, 15.0), watchos(1.0, 8.0));
+                         ^
+5 warnings generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoamodes.m:146:23: warning: 'CGDisplayModeCopyPixelEncoding' is deprecated: first deprecated in macOS 10.11 - No longer supported [-Wdeprecated-declarations]
+    CFStringRef fmt = CGDisplayModeCopyPixelEncoding(vidmode);
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:177:34: note: 'CGDisplayModeCopyPixelEncoding' has been explicitly marked deprecated here
+CG_EXTERN CFStringRef __nullable CGDisplayModeCopyPixelEncoding(
+                                 ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoamodes.m:307:32: warning: 'CGDisplayIOServicePort' is deprecated: first deprecated in macOS 10.9 - No longer supported [-Wdeprecated-declarations]
+    io_service_t servicePort = CGDisplayIOServicePort(displayID);
+                               ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDisplayConfiguration.h:372:24: note: 'CGDisplayIOServicePort' has been explicitly marked deprecated here
+CG_EXTERN io_service_t CGDisplayIOServicePort(CGDirectDisplayID display)
+                       ^
+2 warnings generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoashape.m:47:40: warning: 'graphicsContext' is deprecated: first deprecated in macOS 10.14 - Add instances of NSView to display content in a window. [-Wdeprecated-declarations]
+    data->context = [windata->nswindow graphicsContext];
+                                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:864:59: note: property 'graphicsContext' is declared deprecated here
+@property (nullable, readonly, strong) NSGraphicsContext *graphicsContext API_DEPRECATED("Add instances of NSView to display content in a window.", macos(10.0,10.14));
+                                                          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:864:59: note: 'graphicsContext' has been explicitly marked deprecated here
+1 warning generated.
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:159:47: warning: 'NSFilenamesPboardType' is deprecated: first deprecated in macOS 10.14 - Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead [-Wdeprecated-declarations]
+    NSArray *types = [NSArray arrayWithObject:NSFilenamesPboardType];
+                                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPasteboard.h:312:32: note: 'NSFilenamesPboardType' has been explicitly marked deprecated here
+APPKIT_EXTERN NSPasteboardType NSFilenamesPboardType API_DEPRECATED("Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead", macos(10.0,10.14));
+                               ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:172:45: warning: 'NSFilenamesPboardType' is deprecated: first deprecated in macOS 10.14 - Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead [-Wdeprecated-declarations]
+    SDL_assert([desiredType isEqualToString:NSFilenamesPboardType]);
+                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPasteboard.h:312:32: note: 'NSFilenamesPboardType' has been explicitly marked deprecated here
+APPKIT_EXTERN NSPasteboardType NSFilenamesPboardType API_DEPRECATED("Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead", macos(10.0,10.14));
+                               ^
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:506:11: warning: 'setAcceptsTouchEvents:' is deprecated: first deprecated in macOS 10.12.2 - Use allowedTouchTypes instead [-Wdeprecated-declarations]
+    [view setAcceptsTouchEvents:YES];
+          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:227:16: note: property 'acceptsTouchEvents' is declared deprecated here
+@property BOOL acceptsTouchEvents API_DEPRECATED("Use allowedTouchTypes instead", macos(10.6,10.12.2));
+               ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:227:16: note: 'setAcceptsTouchEvents:' has been explicitly marked deprecated here
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:1655:15: warning: 'setOneShot:' is deprecated: first deprecated in macOS 10.14 - This property does not do anything and should not be used [-Wdeprecated-declarations]
+    [nswindow setOneShot:NO];
+              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:866:35: note: property 'oneShot' is declared deprecated here
+@property (getter=isOneShot) BOOL oneShot API_DEPRECATED("This property does not do anything and should not be used", macos(10.0,10.14));
+                                  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:866:35: note: 'setOneShot:' has been explicitly marked deprecated here
+/Users/michaelvaden/.cargo/registry/src/github.com-1ecc6299db9ec823/fermium-20022.0.0/SDL2-2.0.22/src/video/cocoa/SDL_cocoawindow.m:2363:86: warning: 'kUTTypeFileURL' is deprecated: first deprecated in macOS 12.0 - Use UTTypeFileURL instead. [-Wdeprecated-declarations]
+        [data->nswindow registerForDraggedTypes:[NSArray arrayWithObject:(NSString *)kUTTypeFileURL]];
+                                                                                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers/UTCoreTypes.h:211:26: note: 'kUTTypeFileURL' has been explicitly marked deprecated here
+extern const CFStringRef kUTTypeFileURL                              API_DEPRECATED("Use UTTypeFileURL instead.", ios(3.0, 15.0), macos(10.4, 12.0), tvos(9.0, 15.0), watchos(1.0, 8.0));
+                         ^
+5 warnings generated.

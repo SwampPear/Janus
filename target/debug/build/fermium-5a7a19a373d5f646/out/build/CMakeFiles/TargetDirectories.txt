@@ -1,0 +1,10 @@
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/SDL2main.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/SDL2.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/SDL2-static.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/uninstall.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/edit_cache.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/rebuild_cache.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/list_install_components.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/install.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/install/local.dir
+/Users/michaelvaden/Desktop/Projects/janus/target/debug/build/fermium-5a7a19a373d5f646/out/build/CMakeFiles/install/strip.dir

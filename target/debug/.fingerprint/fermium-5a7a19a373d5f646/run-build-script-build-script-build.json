@@ -1,0 +1,1 @@
+{"rustc":17204927582409307511,"features":"","target":0,"profile":0,"path":0,"deps":[[17186142386707242466,"build_script_build",false,3861882840431365339]],"local":[{"RerunIfChanged":{"output":"debug/build/fermium-5a7a19a373d5f646/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
